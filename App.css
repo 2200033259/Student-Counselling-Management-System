@@ -1,0 +1,73 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Center align the content */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align header to the top */
+  min-height: 100vh;
+  background-image: url('https://image.freepik.com/free-vector/education-concept-background_52683-56852.jpg');
+  background-size: cover; /* Scale the background image to be as large as possible */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image within the container */
+}
+
+/* Header styles */
+.App-header {
+  background-color: rgba(40, 44, 52, 0.8);
+  width: 100%;
+  padding: 10px ;
+  text-align: center;
+  font-size: 50px;
+  color: ivory;
+}
+
+/* Logo styles */
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  animation:  infinite 20s linear;
+}
+
+/* Title styles */
+.App-title {
+  font-size: 35px;
+  color: white;
+}
+
+/* Login form styles */
+.login-form {
+  border: 1px solid red;
+  width: 350px;
+  height: 250px;
+  border-radius: 25px;
+  background-color: aliceblue;
+  padding: 35px;
+  margin-top: 100px;
+}
+
+/* App body styles */
+.App-body {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+
